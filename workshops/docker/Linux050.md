@@ -84,18 +84,18 @@ All the availability domains in a region are connected to each other by a low la
 
 - Click **Networking Quickstart**, select **VCN with Internet Connectivity**, then click **Start Workflow**
 
-  ![](images/050Linux/11u1.PNG)
-  ![](images/050Linux/11u2.PNG)
+  ![](images/050Linux/11u1.png)
+  ![](images/050Linux/11u2.png)
 
 - Fill in the following values as highlighted below:
 
-  ![](images/050Linux/12u1.PNG)
+  ![](images/050Linux/12u1.png)
 
 - Click **Next**, then **Create**.
 
 - Click **View Virtual Cloud Network**. You will see:
 
-  ![](images/050Linux/13u1.PNG)
+  ![](images/050Linux/13u1.png)
 
 ### **STEP 5**: Add a Security List entry
 
@@ -103,11 +103,11 @@ A security list provides a virtual firewall for an instance, with ingress and eg
 
 - In the DockerVCN network click on **Security Lists**
 
-  ![](images/050Linux/16u1.PNG)
+  ![](images/050Linux/16u1.png)
 
 - Click on **Default Security List for DockerVCN**
 
-  ![](images/050Linux/18u1.PNG)
+  ![](images/050Linux/18u1.png)
 
 For the purposes of the upcoming Docker deployments we need to add five Ingress Rules that allow access from the Internet to ports 9080, 8002, 18002, 5600, and 8085. In a production environment only the UI port (8085) would typically be opened for access but the labs will have us test various other Application and Oracle centric functionality as we go, thus the need to open other ports.
 
@@ -115,7 +115,7 @@ For the purposes of the upcoming Docker deployments we need to add five Ingress 
 
   **`NOTE: DO NOT EDIT AN ALREADY EXISTING RULE, ADD NEW ONES...`**
 
-  ![](images/050Linux/19.PNG)
+  ![](images/050Linux/19.png)
 
 - In the Pop up dialog **Enter the following** and then click the **Add Ingress Rule** button.
 
