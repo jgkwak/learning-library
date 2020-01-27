@@ -54,7 +54,6 @@ Ensure you have below information available:
 ## Practice-2: Upload Object and Check Audit logs
 
 1. Open a terminal window.
-![]( img/AUDIT004.PNG)
 
 2. Change directory to the Downloads folder Enter command: 
 ```
@@ -68,8 +67,6 @@ touch samplefile
 This should create a file by the name"samplefile" in the Downloads folder
 
 4. Switch to OCI window and click the Bucket Name.
-
-**HINT:** You can swap between OCI window and any other application(git-bash etc) by clicking switch window
 
 ![]( img/AUDIT006.PNG)
 
