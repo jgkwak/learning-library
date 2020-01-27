@@ -190,9 +190,9 @@ You will create two web servers that will work as backend servers for your Publi
    - **Port:** *80*
    - Click Create Load Balancer
    
-   ![](media/LB1.png)
-   ![](media/LB2.png)
-   ![](media/LB3.png)
+   ![](img/LB1.png)
+   ![](img/LB2.png)
+   ![](img/LB3.png)
   
     **Note:** When a load balancer is created, you're assigned a public IP address to which you route all incoming traffic. The IP address is highly available across ADs.
 
