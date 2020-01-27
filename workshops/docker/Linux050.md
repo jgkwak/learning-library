@@ -1,20 +1,15 @@
-# Docker Workshop - Trial Account Set Up
+# Networking Workshop - Setting up VCN
 
 ![](images/050Linux/Title050.png)
 
 ## Overview
 
 ## Introduction
-In this lab we will obtain an Oracle Cloud Free Tier Account (if you haven't obtained one already please [follow these directions](Intro.md)), create SSH key pairs, login to your Cloud Account, create a VCN (Virtual Compute Network) and Compartment, create a new Compute instance, and finally install Docker into the instance.
-
-***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
+In this lab we will obtain an Oracle Cloud Free Tier Account (if you haven't obtained one already please [follow these directions](Intro.md)), create a VCN (Virtual Compute Network) and Compartment
 
 ## Objectives
 
-- Obtain an Oracle Cloud Free Tier Account
-- Create the baseline infrastructure to support a Compute instance
-- Create a SSH key pair
-- SSH into the instance: Install Docker and Git
+- Create VCN
 
 # Login to your new Oracle Cloud Account and Create Infrastructure
 
@@ -56,13 +51,11 @@ All the availability domains in a region are connected to each other by a low la
 
 A security list provides a virtual firewall for an instance, with ingress and egress rules that specify the types of traffic allowed in and out. Each security list is enforced at the instance level. However, you configure your security lists at the subnet level, which means that all instances in a given subnet are subject to the same set of rules. The security lists apply to a given instance whether it's talking with another instance in the VCN or a host outside the VCN.
 
-- In the DockerVCN network click on **Security Lists**
+- In the DemoVCN network click on **Security Lists**
 
   ![](images/050Linux/16u1.PNG)
 
 - Click **Add Ingress Rule**
-
-  **`NOTE: DO NOT EDIT AN ALREADY EXISTING RULE, ADD NEW ONES...`**
 
   ![](images/050Linux/19.PNG)
 
