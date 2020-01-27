@@ -59,7 +59,16 @@ A security list provides a virtual firewall for an instance, with ingress and eg
 - In the DockerVCN network click on **Security Lists**
 
   ![](images/050Linux/16u1.PNG)
-  
+
+- Click **Add Ingress Rule**
+
+  **`NOTE: DO NOT EDIT AN ALREADY EXISTING RULE, ADD NEW ONES...`**
+
+  ![](images/050Linux/19.PNG)
+
+- In the Pop up dialog **Enter the following** and then click the **Add Ingress Rule** button.
+
+
 **This completes the Set Up!**
 
 **You are ready to proceed to [Lab 100](Linux100.md)**
