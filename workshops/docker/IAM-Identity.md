@@ -138,7 +138,7 @@ We'll create users, groups, and policies to understand the concept.
 
 7. Sign in as the new user using a different web browser window.
 
-   a) Go to [https://console.us-ashburn-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com).
+   a) Go to [https://console.us-phoenix-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com).
 
    b) Enter the Tenant name, if prompted.
 
