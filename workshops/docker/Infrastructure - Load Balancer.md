@@ -171,22 +171,29 @@ You will create two web servers that will work as backend servers for your Publi
 1. In the Cosole, click **Menu** --> **Networking** --> **Load Balancers**. Click **Create Load Balancer** and enter the following paremeters:
 
    - **Name:** *LB-Web-Servers*
-   - **Shape:** *100Mbps*
    - **Visibility Type:** *Public Load Balancer*
-   - **Virtual Cloud Network:** *VCN-WEB*
+   - **Shape:** *100Mbps*
+   - **Virtual Cloud Network:** *DemoVCN*
    - **Subnet:** *lb-subnet(regional)*
-   - **Protocol:** *HTTP*
-   - **Port:** *80*
+   - Click Next
+   
    - **Traffic Distribution Policy:** *Weighted Round Robin*
-   - Select **Choose a compute instance Private IP Address**
+   - Click on **+Add more Backends:**
    - Select **Instance Name:** *Web-Server-1*
-   - Click on **+Additional Backend:**
+   - Click on **+Add more Backends:**
    - Select **Instance Name:** *Web-Server-2*
-   - Click Create
-
-    ![](media/image8.png)
-    ![](media/image9.png)
-
+   - **Port:** *80*
+   - Click Next
+   
+   - **Listener Name:** *Web-Listener*
+   - **Type of traffic your listener handles:** *HTTP*
+   - **Port:** *80*
+   - Click Create Load Balancer
+   
+   ![](media/LB1.png)
+   ![](media/LB2.png)
+   ![](media/LB3.png)
+  
     **Note:** When a load balancer is created, you're assigned a public IP address to which you route all incoming traffic. The IP address is highly available across ADs.
 
 2. Update the **LB-Security-List** to allow Internet Traffic to the Listener. Go to your VCN details page and perform the following tasks:
@@ -200,7 +207,7 @@ You will create two web servers that will work as backend servers for your Publi
       - Click *Add Ingress Rules*
         ![](media/image13.png)
 
-3. On the lef side click on  **Egress Rules**, click **Add Egress Rules** and Enter the following egress rule: 
+3. On the left side click on  **Egress Rules**, click **Add Egress Rules** and Enter the following egress rule: 
 
     - **Source CIDR:** *0.0.0.0/0*
     -  **IP Protocol:** *All Protocols*
