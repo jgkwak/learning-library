@@ -52,7 +52,14 @@ All the availability domains in a region are connected to each other by a low la
 
   ![](images/050Linux/13u1.png)
 
+### **STEP 5**: Add a Security List entry
 
+A security list provides a virtual firewall for an instance, with ingress and egress rules that specify the types of traffic allowed in and out. Each security list is enforced at the instance level. However, you configure your security lists at the subnet level, which means that all instances in a given subnet are subject to the same set of rules. The security lists apply to a given instance whether it's talking with another instance in the VCN or a host outside the VCN.
+
+- In the DockerVCN network click on **Security Lists**
+
+  ![](images/050Linux/16u1.PNG)
+  
 **This completes the Set Up!**
 
 **You are ready to proceed to [Lab 100](Linux100.md)**
