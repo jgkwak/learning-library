@@ -52,42 +52,6 @@ All the availability domains in a region are connected to each other by a low la
 
   ![](images/050Linux/13u1.png)
 
-### **STEP 5**: Add a Security List entry
-
-A security list provides a virtual firewall for an instance, with ingress and egress rules that specify the types of traffic allowed in and out. Each security list is enforced at the instance level. However, you configure your security lists at the subnet level, which means that all instances in a given subnet are subject to the same set of rules. The security lists apply to a given instance whether it's talking with another instance in the VCN or a host outside the VCN.
-
-- In the DockerVCN network click on **Security Lists**
-
-  ![](images/050Linux/16u1.png)
-
-- Click on **Default Security List for DockerVCN**
-
-  ![](images/050Linux/18u1.png)
-
-For the purposes of the upcoming Docker deployments we need to add five Ingress Rules that allow access from the Internet to ports 9080, 8002, 18002, 5600, and 8085. In a production environment only the UI port (8085) would typically be opened for access but the labs will have us test various other Application and Oracle centric functionality as we go, thus the need to open other ports.
-
-- Click **Add Ingress Rule**
-
-  **`NOTE: DO NOT EDIT AN ALREADY EXISTING RULE, ADD NEW ONES...`**
-
-  ![](images/050Linux/19.png)
-
-- In the Pop up dialog **Enter the following** and then click the **Add Ingress Rule** button.
-
-  **NOTE: Leave all other values at default. The destination port values should not have any spaces between them.**
-
-  ```
-  Source CIDR: 0.0.0.0/0
-  Destination Port Range: 8085,9080,8002,18002,5600
-  ```
-
-  ![](images/050Linux/Linux050-ingress-setup.PNG)
-
-- **If the comma-separated values do not work or give you `invalid input`, you will have to create the ingress rule entries one-by-one.**
-
-- When completed your Ingress Rules should look like:
-
-  ![](images/050Linux/Linux050-a84ef9f4.png)
 
 **This completes the Set Up!**
 
