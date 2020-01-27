@@ -50,7 +50,7 @@ All the availability domains in a region are connected to each other by a low la
 
 - Click **View Virtual Cloud Network**. You will see:
 
-  ![](images/050Linux/13u1.png)
+  ![](images/050Linux/13u1.PNG)
 
 ### **STEP 5**: Add a Security List entry
 
