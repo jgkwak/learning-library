@@ -34,20 +34,14 @@ The following provide an overview of a simple Public Load Balancer:
 - Oracle Cloud Infrastructure account credentials (User, Password, and Tenant) 
 - To sign in to the Console, you need the following:
   -  Tenant, User name and Password
-  -  URL for the Console: [https://console.us-ashburn-1.oraclecloud.com/](https://console.us-ashburn-1.oraclecloud.com/)
+  -  URL for the Console: [https://console.us-phoenix-1.oraclecloud.com/](https://console.us-ashburn-1.oraclecloud.com/)
   -  Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox and Internet Explorer 11
 
-## Practice-1: Creating Virtual Cloud Network
+## Practice-1: Creating Security Lists
 
-1. Click on **Menu** --> **Networking** --> **Virtual Cloud Network**
-2. Click **Create Virtual Cloud Network** 
+1. Click on **Menu** --> **Networking** --> **Virtual Cloud Network --> DemoVCN**
 
-   - **Name:** *VCN-WEB*
-   - **Select** *Create Virtual Cloud Network Only*
-   - **CIDR Block:** *10.0.0.0/16*
-   - Click *Create Virtual Cloud Network*
-
-3. Create the following Security Lists:
+2. Create the following Security Lists:
 
    - **Security List Name:** *LB-Security-List*
    - Remove all the Ingress and Egress Rules of the *LB-Security-List*
@@ -70,12 +64,9 @@ The following provide an overview of a simple Public Load Balancer:
      ![](media/image17.png)
      ![](media/image18.png)
 
-4. Create the following Internet Gateway:
+4. Internet Gateway has already been created when you set up the VCN:
 
-   - **Name:** *Internet-Gateway*
-   - Click *Create Internet Gateway*
-
-    ![](media/image16.png)
+   - Click *Internet Gateway* to see your Internet Gateway
 
 5. Create the following Route Table:
 
@@ -88,12 +79,12 @@ The following provide an overview of a simple Public Load Balancer:
 
 6. Create a LB Subnet and edit by clicking on **Create Subnet**. Enter the following parameters:
 
-   - **Name:** *lb-subnet*
+   - **Name:** *LB-subnet*
    - **Subnet Type:** *Regional (Recommended)*
-   - **CIDR Block:** *10.0.1.0/24*
+   - **CIDR Block:** *10.0.2.0/24*
    - **Route Table:** *Route-Table*
    - **Subnet Access:** *Public Subnet*
-   - **DHCP Options:** *Default DHCP Options for VCN-WEB**
+   - **DHCP Options:** *Default DHCP Options for DemoVCN**
    - **Security List:** *LB-Security-List*
 
     ![](media/image3.png)
@@ -101,12 +92,12 @@ The following provide an overview of a simple Public Load Balancer:
 
 7. Create a Web Subnet to host your webservers by clicking on **Create Subnet**. Enter the following parameters:
    
-   - **Name:** *web-subnet*
+   - **Name:** *Web-subnet*
    - **Subnet Type:** *Regional (Recommended)*
-   - **CIDR Block:** *10.0.2.0/24*
+   - **CIDR Block:** *10.0.3.0/24*
    - **Route Table:** *Route-Table*
    - **Subnet Access:** *Public Subnet*
-   - **DHCP Options:** *Default DHCP Options for VCN-WEB**
+   - **DHCP Options:** *Default DHCP Options for DemoVCN**
    - **Security List:** *Web-Security-List*
 
     ![](media/image5.png)
@@ -116,12 +107,13 @@ The following provide an overview of a simple Public Load Balancer:
 
 You will create two web servers that will work as backend servers for your Public Load Balancer.
 
-1. Launch two Instances with the following configuration:
+1. Click on **Menu** --> **Compute** --> **Instances** Then click **Create Instance** 	
+   We'll create two compute instances with the following configuration:
 
    - **Name:** *Web-Server-1*
    - **Availability Domain:** *AD 3*
    - **Shape:** *VM.Standard2.1*
-   - **Subnet:** *web-subnet (Regional)* 
+   - **Subnet:** *Web-subnet (Regional)* 
    - Enter your public SSH-Key
    - Click Create
 
