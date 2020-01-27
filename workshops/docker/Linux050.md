@@ -22,53 +22,8 @@ You will create all required infrastructure components within your Oracle Cloud 
 
 ## Your Oracle Cloud Free Tier Account
 
-### **STEP 2**: Log in to your account
 
-- Once you receive the **Your Cloud Account is fully provisioned** Email, make note of your **Username and Cloud Account Name**. *`Note: Usernames are usually your email address.`* You can login by clicking the Sign In button or access it from any browser.
-
-  ![](images/signup-email-provisioned.png)
-
-- From any browser go to oracle.com to access our Cloud.
-
-  [https://www.oracle.com/](https://www.oracle.com/)
-
-  ![](images/login-screen.png)
-
-- Click the icon in the upper right corner.  Click on **Sign in to Cloud** at the bottom of the drop down.  *NOTE:  Do NOT click the Sign-In button, this will take you to Single Sign-On, not the Oracle Cloud*
-
-  ![](images/signup.png)    
-
-- Enter your **Cloud Account Name** in the input field and click the **My Services** button. If you have a Free Tier account provisioned, this can be found in your welcome email. Otherwise, this will be supplied by your workshop instructor.
-
-  ![](images/login-tenancy.png)  
-
-- Enter your **Username** and **Password** in the input fields and click **Sign In**.
-
-  ![](images/cloud-login.png) 
-
-  **NOTE**: You will likely be prompted to change the temporary password listed in the welcome email. In that case, enter the new password in the password field.
-
-### **STEP 3**: Create a Compartment
-
-Compartments are used to isolate resources within your OCI tenant. User-based access policies can be applied to manage access to compute instances and other resources within a Compartment.
-
-- Click the **hamburger icon** in the upper left corner to open the navigation menu. Under the **Identity** section of the menu, click **Compartments**
-
-  ![](images/create-compartment.png) 
-
-- Click **Create Compartment**
-
-  ![](images/create-compartment-page.png) 
-
-- In the **Name** field, enter any name you want. For this example we will be using the name `Demo` going forward. Enter a **Description** of your choice. Click **Create Compartment**.
-
-  ![](images/050Linux/8.png)
-
-- In a moment, your new Compartment will show up in the list.
-
-  ![](images/compartment-created.png) 
-
-### **STEP 4**: Create a Virtual Cloud Network
+### Create a Virtual Cloud Network
 
 We need a default VCN to define our networking within the `Demo` compartment or the name you used for your compartment. This is where Subnets and Security Lists, to name a couple get defined for each Availablity Domains in your Tenancy. Oracle Cloud Infrastructure is hosted in regions and availability domains. A region is a localized geographic area, and an availability domain is one or more data centers located within a region. A region is composed of several availability domains. Availability domains are isolated from each other, fault tolerant, and very unlikely to fail simultaneously. Because availability domains do not share infrastructure such as power or cooling, or the internal availability domain network, a failure at one availability domain is unlikely to impact the availability of the others.
 
