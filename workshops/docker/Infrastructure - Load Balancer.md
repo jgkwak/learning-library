@@ -122,7 +122,19 @@ You will create two web servers that will work as backend servers for your Publi
     ![](media/image7.png)
 
 
-2. Connect to the Web Servers using SSH and run the following commands on both instances:
+2. Connect to the Web Servers using SSH 
+
+	```
+	# ssh opc@<public_ip_address>
+	```
+
+	If you have a different path for your SSH key enter the following:
+
+	```
+	# ssh -i <path_to_private_ssh_key> opc@<public_ip_address>
+	```
+	
+   and run the following commands on both instances:
 
     **Note**: For Oracle Linux VMs, the default username is **opc**.
 
