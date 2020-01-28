@@ -8,7 +8,9 @@
 
 [Practice-1: Sign in to OCI Console and Create Object Storage Bucket](#practice-1-sign-in-to-oci-console-and-create-object-storage-bucket)
 
-[Practice-2: Upload Object and Check Audit logs](#practice-2-upload-object-and-check-audit-logs)
+[Practice-2: Upload Object](#practice-2-upload-object)
+
+[Practice-3: Check Audit logs](#practice3-check-audit-logs)
 
 ## Overview
 
@@ -51,7 +53,7 @@ Ensure you have below information available:
 5. Click **Create Bucket**
 ![]( img/AUDIT003.PNG)
 
-## Practice-2: Upload Object and Check Audit logs
+## Practice-2: Upload Object
 
 1. Open a terminal window.
 
@@ -118,8 +120,9 @@ Without requiring any additional authentication.
 other users to provide them access to the object.
 Multiple objects of any size can be uploaded to the bucket and shared across teams/users.***
 
+## Practice-3: Check Audit logs
 
-15. In OCI services menu, Click **Audit** under Governance. Scroll down or type the bucket name in 
+1. In OCI services menu, Click **Audit** under Governance. Scroll down or type the bucket name in 
 Keyword section. You can choose other options
 such as dates and Request Action Type. For this 
 lab we will leave them as default. Audit logs for the Storage bucket should be visible
