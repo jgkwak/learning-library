@@ -50,9 +50,9 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 3. Leave the tags options as it is and click on **Create Block Volume**. The volume will be ready to attach once its icon no longer lists it as **PROVISIONING** in the volume list.
    
-   ![](media/image001.png)
-   ![](media/image002.png)
-   ![](media/image003.png)
+   ![](mediaBV/image001.png)
+   ![](mediaBV/image002.png)
+   ![](mediaBV/image003.png)
 
 ## Practice 2: Attaching a Block Volume to an instance
 
@@ -64,7 +64,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 2. Go to the Compute instance Menu, and navigate to the VM instance you created before and click on the **Attach Block Volume** button.
 
-    ![](media/image004.png)
+    ![](mediaBV/image004.png)
 
 3. Select the volume created from the drop down menu and choose the following options: 
    
@@ -73,16 +73,16 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
    - **Device Path:** Select `/dev/oracleoci/oraclevdb`
    - Cick **Attach**
  
-   ![](media/image005.png)
+   ![](mediaBV/image005.png)
 
 4. Once the volume is attached, you can click on the ellipsis and then click **iSCSI Command and Information link.** 
 
-    ![](media/image006.png)
+    ![](mediaBV/image006.png)
 
 5. Connect to the instance through SSH and **run the iSCSI ATTACH COMMANDS**.Click on **COPY** to copy all attach commands run all these commands by pasting it in the terminal:
 
-    ![](media/image007.png)
-    ![](media/image008.png)
+    ![](mediaBV/image007.png)
+    ![](mediaBV/image008.png)
 
 6. Once the disk is attached, you can run the following commands to format the disk and mount it.
      ```
@@ -92,6 +92,6 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
     # sudo mkdir /mnt/disk1
      # sudo mount /dev/oracleoci/oraclevdb /mnt/disk1
     ```
-    ![](media/image009.png)
+    ![](mediaBV/image009.png)
 
     **Note** When mounting a storage volume for the first time, you can format the storage volume and create a single, primary partition that occupies the entire volume by using fdisk command (Caution: Using fdisk to format the disk deletes any data on the disk).
