@@ -51,7 +51,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 3. Leave the tags options as it is and click on **Create Block Volume**. The volume will be ready to attach once its icon no longer lists it as **PROVISIONING** in the volume list.
    
-   ![](mediaBV/image01.png)
+   ![](mediaBV/image1.png)
    ![](mediaBV/image002.png)
    ![](mediaBV/image003.png)
 
