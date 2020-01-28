@@ -10,7 +10,7 @@
 
 [Practice-2: Upload Object](#practice-2-upload-object)
 
-[Practice-3: Check Audit logs](#practice3-check-audit-logs)
+[Practice-3: Check Audit logs](#practice-3-check-audit-logs)
 
 ## Overview
 
