@@ -78,7 +78,48 @@ This should create a file by the name"samplefile" in the Downloads folder
 
 7. Select the file, then click **Upload Object** in the Dialog box.
 
-8. In OCI services menu, Click **Audit** under Governance. Scroll down or type the bucket name in 
+8. File should be visible under Objects. Click 
+Action icon and click **Create Pre-
+Authenticated Request**. This will create a web
+link that can be used to access the object 
+Without requiring any additional authentication.
+
+![]( imgOS/OBJECT-STORAGE008.PNG)
+
+9. Fill out the dialog box:
+
+- NAME: Use an easy to remember name.
+
+- PRE AUTHENTICATION REQUEST TARGET: OBJECT
+
+- ACCESS TYPE: PERMIT READS ON THE OBJECT
+
+- EXPIRATION DATE/TIME: Specify link expiration date
+
+10. Click **Create Pre-Authenticated Request**
+
+![]( imgOS/OBJECT-STORAGE009.PNG)
+
+11. Click **Copy** to copy the link
+
+**NOTE:** The link must be copied and saved once the window is closed the link can not be retrieved again. 
+
+12. Click **Close**
+![]( imgOS/OBJECT-STORAGE010.PNG)
+
+13. Open a new browser window and paste Pre-Authenticated link. 
+![]( imgOS/OBJECT-STORAGE011.PNG)
+
+14.  An option to download the file will appear.
+
+**NOTE:** Do NOT download the file as due to space restrictions it is not allowed for the purpose of this lab.
+
+***You have uploaded an object to Object Storage bucket, created a pre-authenticated link and successfully accessed the object. The Pre-Authenticated link can be shared with 
+other users to provide them access to the object.
+Multiple objects of any size can be uploaded to the bucket and shared across teams/users.***
+
+
+15. In OCI services menu, Click **Audit** under Governance. Scroll down or type the bucket name in 
 Keyword section. You can choose other options
 such as dates and Request Action Type. For this 
 lab we will leave them as default. Audit logs for the Storage bucket should be visible
