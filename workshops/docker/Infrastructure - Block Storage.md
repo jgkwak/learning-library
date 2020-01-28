@@ -21,7 +21,7 @@ The Oracle Cloud Infrastructure Block Volume service lets you dynamically provis
 - Oracle Cloud Infrastructure account credentials (User, Password, and Tenant) 
 - To sign in to the Console, you need the following:
   -  Tenant, User name and Password
-  -  URL for the Console: [https://console.us-ashburn-1.oraclecloud.com/](https://console.us-ashburn-1.oraclecloud.com/)
+  -  URL for the Console: [https://console.us-phoenix-1.oraclecloud.com/](https://console.us-ashburn-1.oraclecloud.com/)
   -  Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox and Internet Explorer 11 
 
 ## Practice 1: Creating Block Volume
@@ -31,11 +31,12 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 1. Navigate to the Menu and click on **Block Storage**.
 
 2. In Bock Volume service, click on **Create Block Volume** and provide the following details:
-
-   - **Compartment:** Your Compartment Name
+   
    - **Name:** A user-friendly name or description.
+   - **Compartment:** Your Compartment Name
    - **Availability Domain:** It must be the same as the AD you choose for your instance.
    - **Size**: Please choose **50 GB**. 
+   - **Back Up Compartment:** Your Compartment Name
    - **Backup Policy**: **Gold**
 
     **Note**: Must be between **50 GB** and **32 TB**. You can choose in 1 GB increments within this range. The default is 1024 GB)
@@ -50,7 +51,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 3. Leave the tags options as it is and click on **Create Block Volume**. The volume will be ready to attach once its icon no longer lists it as **PROVISIONING** in the volume list.
    
-   ![](mediaBV/image001.png)
+   ![](mediaBV/image01.png)
    ![](mediaBV/image002.png)
    ![](mediaBV/image003.png)
 
