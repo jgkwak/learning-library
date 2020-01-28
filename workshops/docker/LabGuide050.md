@@ -1,6 +1,6 @@
 # Lab 050: Setup Cloud Environment
 
-  ![](images/050/Title.png)
+  ![](images/050Linux/Title.png)
 
 ## Introduction
 
@@ -25,7 +25,7 @@ You have already applied for and received your Oracle Cloud Trial Account.
 
 - Once you receive the **Get Started Now with Oracle Cloud** Email, make note of your **Username, Password and Cloud Account Name**.
 
-  ![](images/050/001.png)
+  ![](images/050Linux/001.png)
 
 - From any browser go to
 
@@ -33,35 +33,35 @@ You have already applied for and received your Oracle Cloud Trial Account.
 
 - Enter your **Cloud Account Name** in the input field and click the **Next** button.
 
-  ![](images/050/002.png)
+  ![](images/050Linux/002.png)
 
 - Enter your **Username** and **Password** in the input fields and click **Sign In**.
 
-  ![](images/050/003.png)
+  ![](images/050Linux/003.png)
 
 - You are presented with the Oracle Cloud Infrastructure (OCI) Dashboard/Portal
 
-  ![](images/050/004.png)
+  ![](images/050Linux/004.png)
 
 - To switch Regions, click on the Region Drop-Down in the upper right-hand corner and select **Manage Regions**
   
-  ![](images/050/005.png)
+  ![](images/050Linux/005.png)
 
 - On the Tenancy page, click on the **Subscibe To This Region** button for the **us-phoenix-1** Region.  Note - this is not in fact required, but does show how you can select region to co-locate services.
   
-  ![](images/050/006.png)
+  ![](images/050Linux/006.png)
 
 - Click **OK** to confirm the subscribtion to the region.
   
-  ![](images/050/007.png)
+  ![](images/050Linux/007.png)
 
 **NOTE:** Refresh the Page to verify the Region is now Active (Green Circle).  The subscribtion can take 1 minute to occur.
 	
 - Once the Region is Active (Green Circle), click on the Region Drop-Down in the upper right-hand corner and select **us-phoenix-1**
 
-  ![](images/050/008.png)
+  ![](images/050Linux/008.png)
 	
-  ![](images/050/009.png)
+  ![](images/050Linux/009.png)
 
 ### **STEP 3:** Create a Compartment
 
@@ -69,19 +69,19 @@ Compartments are used to isolate resources within your OCI tenant. User-based ac
 
 - Click the **Menu icon** in the upper left corner to open the navigation menu. Under the **Governance and Administration** section, select **Identity** and select **Compartments**.
 
-  ![](images/050/011.png)
+  ![](images/050Linux/011.png)
 
 - Click **Create Compartment**.  Note that you can create the compartment in your root compartment, or create sub-compartments under the root compartment.  In this case we will be creating a new compartment under our 'demo' compartment (your root compartment will be different).
 
-  ![](images/050/012.png)
+  ![](images/050Linux/012.png)
 
 - In the **Name** field, enter `python4dev`. Enter a **Description** of your choice. Click **Create Compartment**.
 
-  ![](images/050/013.png)
+  ![](images/050Linux/013.png)
 
 - In a moment, your new Compartment will show up in the list.
 
-  ![](images/050/014.png)
+  ![](images/050Linux/014.png)
 
 ### **STEP 4:** Create a VCN
 
@@ -91,55 +91,55 @@ All the availability domains in a region are connected to each other by a low la
 
 - Navigate to `Networking` > `Virtual Cloud Networks`.
 
-  ![](images/050/030.png)
+  ![](images/050Linux/030.png)
 
 - Select `Create Virtual Cloud Network`. 
 
-  ![](images/050/031.png)
+  ![](images/050Linux/031.png)
 
 - Call it ***py4devvcn***, and be sure to select the option to create related resources.  Be sure to select the ***python4dev*** compartment you created previously.  Then scroll down and click `Create Virtual Cloud Network`.
 
-  ![](images/050/032.png)
+  ![](images/050Linux/032.png)
 
-  ![](images/050/033.png)
+  ![](images/050Linux/033.png)
 
 The new [marketplace cloud developer image](https://blogs.oracle.com/linux/announcing-the-oracle-cloud-developer-image-for-oracle-cloud-infrastructure) for Oracle provides a great platform for application development, with all of the development tools you'll need pre-installed and configured.
 
 ### **STEP 5:** Create a new cloud developer image from the Oracle Marketplace Images.
 
-![](images/050/020.png)
+![](images/050Linux/020.png)
 
 - First create a new ssh key pair.  On linux or a Mac enter this in a command shell.  Note to create a ssh key pair on Windows use puttygen.  See the following:  `https://www.ssh.com/ssh/putty/windows/puttygen`.  Call the key `alphakey`.  It will create a private key called `alphakey` and a public key called `alphakey.pub`.  The public key `alphakey.pub` is used when you are prompted for a SSH key when you create services, and the matching private key `alphakey` is used to access those services after creation. (eg: Cloud Developer Image). 
 
 `ssh-keygen -b 2048 -t rsa`
 
-![](images/050/028.png)
+![](images/050Linux/028.png)
 
 - Navigate to `Compute` > `Instances`.
 
-  ![](images/050/021.png)
+  ![](images/050Linux/021.png)
 
 - Select `Create Instance` (in your ***python4dev*** compartment).
 
-  ![](images/050/022.png)
+  ![](images/050Linux/022.png)
 
 - Enter `AlphaOffice` as the name, and then select `Change Image Source`.
 
-  ![](images/050/023.png)
+  ![](images/050Linux/023.png)
 
 - Select the `Oracle Cloud Developer Image`.  Click the checkbox to access the terms and restrictions.
 
-  ![](images/050/024.png)
+  ![](images/050Linux/024.png)
 
-  ![](images/050/025.png)
+  ![](images/050Linux/025.png)
 
 - Select your public ssh key you created above.
 
-  ![](images/050/026.png)
+  ![](images/050Linux/026.png)
 
 - Select your Virtual Cloud Network Compartment `python4atp` and `py4devvcn` VCN and then `Create`.
 
-  ![](images/050/027.png)
+  ![](images/050Linux/027.png)
 	
 ### **STEP 6:** Create an Autonomous Transaction Processing (ATP) Database
 
@@ -147,23 +147,23 @@ We require a Database to store the Alpha Office data which is accessed later in 
 
 - Click the **Menu icon** in the upper left corner to open the navigation menu. Under the **Database** section of the menu, click **Autonomous Transaction Processing** .
 
-  ![](images/050/015.png)
+  ![](images/050Linux/015.png)
 
 - Select the **Compartment** `python4dev` and click **Create Autonomous Database**.
 
-  ![](images/050/016.png)
+  ![](images/050Linux/016.png)
 
 - Select the **Compartment** `python4dev` if it is not already selected. Enter the **Display Name** `AlphaOffice`, **Database Name** `orcl4py`, enter the **Administrator Password** of `a1phaOffice1_` and Click **Create Autonomous Database**
 
-  ![](images/050/017.png)
+  ![](images/050Linux/017.png)
 
-  ![](images/050/018.png)
+  ![](images/050Linux/018.png)
 
-  ![](images/050/018.1.png)
+  ![](images/050Linux/018.1.png)
 
 - After approximately 5 minutes, the ATP instance will be provisioned. You can immediately proceed to the next section.
 
-  ![](images/050/019.png)
+  ![](images/050Linux/019.png)
 
 ### **STEP 7:** Connect to your marketplace developer image
 
@@ -171,23 +171,23 @@ We require a Database to store the Alpha Office data which is accessed later in 
 
 - Navigate to `Comute` > `Instances` and select your image to identify the IP address
 
-	![](images/050/034.png)
+	![](images/050Linux/034.png)
 
 - Identify the IP address.  You will use this to ssh to the image.
 
-	![](images/050/035.png)
+	![](images/050Linux/035.png)
 
 - SSH to the image.  Open a terminal window on a Mac or command shell on Linux and enter the following command: `ssh -i privateKey opc@<your IP address>`.  Note if you are on Windows you will need to use putty.
 
-	![](images/050/036.png)
+	![](images/050Linux/036.png)
 
 - Enter `vncpasswd` to set your VNC access (make it a secure one!).
 
-	![](images/050/037.png)
+	![](images/050Linux/037.png)
 
 - Enter `vncserver` to start the vncserver.
 
-	![](images/050/038.png)
+	![](images/050Linux/038.png)
 
 - Open a SSH tunnel.  This example works on Linux and the MAC.  Note on Linux you will need to be su.  See [here](http://www.oracle.com) for information on how to create a tunnel on Windows.  ***NOTE:*** do not close this terminal window.  It maintains the tunnel to the developer image, which we access through VNC.  If for whatever reason the window is closed or you are otherwise logged out (sometimes tunnels drop), then just run this again to log in.
 
@@ -197,23 +197,23 @@ We require a Database to store the Alpha Office data which is accessed later in 
 
 - Open a vnc viewer session.  If you don't already have vncviewer you can download it [here](https://www.realvnc.com/en/connect/download/viewer/).
 
-	![](images/050/040.png)
+	![](images/050Linux/040.png)
 
-	![](images/050/041.png)
+	![](images/050Linux/041.png)
 
 ### **STEP 8:** Download and install Visual Studio Code
 
 - Open Firefox inside the image.  You will need your Oracle OTN user account.
 
-	![](images/050/042.png)
+	![](images/050Linux/042.png)
 
 - Navigate to here:  `https://code.visualstudio.com/docs/?dv=linux64_rpm` to download vscode.  The download will take several seconds.
 
-	![](images/050/043.png)
+	![](images/050Linux/043.png)
 
 - Right Click on the desktop to open a new terminal window.
 
-	![](images/050/044.png)
+	![](images/050Linux/044.png)
 
 - Change directory to `Downloads`.
 
