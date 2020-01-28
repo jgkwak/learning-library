@@ -1,4 +1,4 @@
-# Lab 050: Setup Cloud Environment
+# Lab 050: Setup Cloud Environment via Terraform
 
   ![](images/050/Title.png)
 
