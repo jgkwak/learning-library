@@ -1,4 +1,4 @@
-# IAM Practice - Identity and Access Management
+# 01 - Identity: users, groups, policies
   
 ## Table of Contents
 
