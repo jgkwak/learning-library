@@ -1,4 +1,4 @@
-# OCI Audit Service
+# 02 - Audit: Object Storage & Audit
   
 ## Table of Contents
 
