@@ -1,4 +1,4 @@
-# Networking Workshop - Setting up VCN
+# 03 - Networking: Setting up VCN
 
 ## Introduction
 In this lab we will obtain an Oracle Cloud Free Tier Account (if you haven't obtained one already please [follow these directions](Intro.md)), create a VCN (Virtual Compute Network) and Compartment
