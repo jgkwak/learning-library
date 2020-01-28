@@ -35,7 +35,7 @@ When you create a VCN, a default security list is also created. Rules in the sec
 
 2. In the **List Scope** section, select the compartment that contains the subnet to be associated with your file system and find the cloud network to be associated with your file system.
    
-3. On the details page for the cloud network, click **Security Lists**, and then find the security list used by the subnet to be associated with your file system. On the details page of the security list, click **Edit All Rules**.
+3. Select the VCN you're using, click **Security Lists**, and then create a new security list to be associated with your file system.
 
 4. Add the following ingress rule allowing TCP traffic:
    
