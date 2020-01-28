@@ -57,7 +57,7 @@ A common usage of Block Volume is adding storage capacity to an Oracle Cloud Inf
 
 ## Practice 2: Attaching a Block Volume to an instance
 
-1. Once the Block Volume is created, you can attach it to the VM instance you just launched on Compute Practice. When you attach a block volume to a VM instance, you have two options for attachment type, iSCSI or paravirtualized.
+1. Once the Block Volume is created, you can attach it to the VM instance you just launched on Load Balancer Practice. When you attach a block volume to a VM instance, you have two options for attachment type, iSCSI or paravirtualized.
 
     - **iSCSI:** iSCSI attachments are the only option when connecting block volumes to bare metal instances. Once the volume is attached, you need to log in to the instance and use the iscsiadm command-line tool to configure the iSCSI connection
 
