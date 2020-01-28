@@ -63,7 +63,7 @@ See these instructions for [Download of Terraform](https://learn.hashicorp.com/t
 
 - First, click on the link to get to the downloads page.
 
-    ![](images/050/018.png)
+    ![](images/050Linux/018.png)
 
 - Then, choose the appropriate package from your operating system.
 
