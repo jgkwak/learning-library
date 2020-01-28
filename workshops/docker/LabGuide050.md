@@ -67,11 +67,11 @@ See these instructions for [Download of Terraform](https://learn.hashicorp.com/t
 
 - Then, choose the appropriate package from your operating system.
 
-    ![](images/050/018.1.png)
+    ![](images/050Linux/018.1.png)
 
 - Once the download finishes, in your home directory look for a folder called `bin`. Move the zip file you downloaded into this directory. Open the zip file and verify that you see the binary file in the `bin` directory.
 
-    ![](images/050/019.png)
+    ![](images/050Linux/019.png)
 
 The following steps are for Linux and Mac users. Windows users see [here](https://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows) for instructions on setting the correct path.
 
@@ -85,7 +85,7 @@ The following steps are for Linux and Mac users. Windows users see [here](https:
 
     `export PATH=$PATH:/path-to/your/bin/`
 
-    ![](images/050/057.png)
+    ![](images/050Linux/057.png)
 
 - Now, we need to source the profile so we can use that path in our environment.
 
@@ -95,7 +95,7 @@ The following steps are for Linux and Mac users. Windows users see [here](https:
 
     `$ terraform`
 
-    ![](images/050/058.png)
+    ![](images/050Linux/058.png)
 
 
 ### **STEP 4:** Get Your Oracle Cloud Credentials
@@ -104,31 +104,31 @@ In order for Terraform to create resources for you, it needs to know how to acce
 
 - Click the **Menu icon** in the upper left corner to open the navigation menu. Under the **Governance and Administration** section, select **Identity** and select **Users**.
 
-  ![](images/050/011.png)
+  ![](images/050Linux/011.png)
 
 - Click on your username. It will usually be in the format **oracleidentitycloudservice/username**.
 
-  ![](images/050/012.png)
+  ![](images/050Linux/012.png)
 
 - Click **Copy** next to OCID, and save this as your **User OCID** in your notes. Next, click on the profile icon in the top right. Then click into the tenancy link.
 
-  ![](images/050/013.png)
+  ![](images/050Linux/013.png)
 
 - Click **Copy** next to OCID, and save this as your **Tenancy OCID** in your notes. Then, copy the **Object Storage Namespace** in your notes.
 
-  ![](images/050/014.png)
+  ![](images/050Linux/014.png)
 
 - Click the **Menu icon** in the upper left corner to open the navigation menu. Under the **Governance and Administration** section, select **Identity** and select **Compartments**.
 
-  ![](images/050/032.png)
+  ![](images/050Linux/032.png)
 
 - Click on the OCID next to your root tenancy, then click **Copy**, and save this as your **Compartment OCID** in your notes.
 
-  ![](images/050/033.png)
+  ![](images/050Linux/033.png)
 
 - Finally, go back to the home console and make a note of your default region. For example, if your region is US West (Phoenix), note down Phoenix in your notes.
 
-  ![](images/050/031.png)
+  ![](images/050Linux/031.png)
 
 
 ### **STEP 5:** Download and Install the OCI CLI (Oracle Cloud Infrastructure Command Line Interface)
@@ -147,24 +147,24 @@ See these instructions for [Download and Install of CLI](https://docs.cloud.orac
 
     Press enter to choose the default location for the config file
 
-    ![](images/050/020.png)
+    ![](images/050Linux/020.png)
     
     Then enter the **User OCID** you saved earlier and press enter.
 
-    ![](images/050/030.png)
+    ![](images/050Linux/030.png)
 
     Repeat the process, but with your **tenancy OCID**
 
-    ![](images/050/022.png)
+    ![](images/050Linux/022.png)
 
     Enter the [home region](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm) you noted earlier.
 
-    ![](images/050/023.png)
+    ![](images/050Linux/023.png)
 
     Enter Y to generate a new RSA key pair, then press enter to choose default values for the rest of the options
 
-    ![](images/050/024.png)
-    ![](images/050/025.png)
+    ![](images/050Linux/024.png)
+    ![](images/050Linux/025.png)
 
     Finally, run
 
@@ -172,41 +172,41 @@ See these instructions for [Download and Install of CLI](https://docs.cloud.orac
     
     Verify that your files are there
 
-    ![](images/050/026.png)
+    ![](images/050Linux/026.png)
 
 - Lastly, go into your /User/path/.oci folder and open the oci_api_key_public pem file. We will use this file to create resources as the given user.
 
     **Note:** This is a hidden folder. If you don't know how to find hidden folders, go [here](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/) for Mac and Linux, or [here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files) for Windows.
 
-    ![](images/050/065.png)
+    ![](images/050Linux/065.png)
 
     Copy the contents of the file.
 
-    ![](images/050/066.png)
+    ![](images/050Linux/066.png)
 
     Go back to the OCI console and click the **Menu icon** in the upper left corner to open the navigation menu. Under the **Governance and Administration** section, select **Identity** and select **Users**.
 
-    ![](images/050/011.png)
+    ![](images/050Linux/011.png)
 
     Click on your username. It will usually be in the format **oracleidentitycloudservice/username**.
 
-    ![](images/050/012.png)
+    ![](images/050Linux/012.png)
 
     Scroll down and click on `Add Public Key`.
 
-    ![](images/050/061.png)
+    ![](images/050Linux/061.png)
 
     Paste in your public pem key and then click `add`.
 
-    ![](images/050/062.png)
+    ![](images/050Linux/062.png)
 
     Finally, open the config file in your /User/path/.oci folder.
 
-    ![](images/050/067.png)
+    ![](images/050Linux/067.png)
 
     Verify that your `Fingerprint` matches the one in your config file.
 
-    ![](images/050/063.png)
+    ![](images/050Linux/063.png)
 
 
 ### **STEP 6:** Generate your SSH key pair
@@ -217,7 +217,7 @@ See these instructions for [Download and Install of CLI](https://docs.cloud.orac
 
     You can call the key whatever you want (the default is easiest).  It will create a private key and a public key. The public key is used when you are prompted for a SSH key when you create services, and the matching private key is used to access those services after creation. (eg: Cloud Developer Image).
 
-    ![](images/050/028.png)
+    ![](images/050Linux/028.png)
 
 - On Windows, follow these [instructions](https://www.ssh.com/ssh/putty/windows/puttygen).
     You can call the key whatever you want (the default is easiest).  It will create a private key and a public key. The public key is used when you are prompted for a SSH key when you create services, and the matching private key is used to access those services after creation. (eg: Cloud Developer Image). 
@@ -231,11 +231,11 @@ Now, we will get the Terraform code. Here is where we will see the true power of
     
     `$ mkdir OCI-terraform && cd OCI-terraform`
 
-    ![](images/050/015.png)
+    ![](images/050Linux/015.png)
 
 - Then, [download](https://github.com/edercervantes/terraform-OCI) zip file for the Terraform script.
 
-    ![](images/050/016.png)
+    ![](images/050Linux/016.png)
 
     Add the zip file to your new folder. Then unpack it.
 
@@ -250,7 +250,7 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
     `$ nano env.vars`
 
-    ![](images/050/017.png)
+    ![](images/050Linux/017.png)
 
 - Paste in the information matching the values in your notes and config file, then save and exit.
 
@@ -260,7 +260,7 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
     Go to the OBJECT_STORAGE section and change the default value for obj_store_namespace to yours. We need this to create the ATP database. Press ctrl + o to save, then press enter. Next, ctrl + x to exit.
 
-    ![](images/050/027.png)
+    ![](images/050Linux/027.png)
 
 - Finally, open compute.tf
 
@@ -268,7 +268,7 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
     Go to the ssh_authorized_keys variable and change the default path to yours. The ssh key will be added to the your Oracle Cloud Developer instance and will allow you to use it's pair to ssh into the instance. Press ctrl + o to save, then press enter. Next, ctrl + x to exit.
 
-    ![](images/050/060.png)
+    ![](images/050Linux/060.png)
 
 
 ### **STEP 8:** Create Resources
@@ -304,11 +304,11 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
 - Navigate to `Compute` > `Instances` and select your image to identify the IP address
 
-	![](images/050/034.png)
+	![](images/050Linux/034.png)
 
 - Identify the IP address.  You will use this to ssh to the image.
 
-	![](images/050/035.png)
+	![](images/050Linux/035.png)
 
 - SSH to the image. 
     **Note if you are on Windows you will need to use putty.**
@@ -316,15 +316,15 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
     `$ ssh -i <your private key> opc@<your IP address>`
 
-	![](images/050/036.png)
+	![](images/050Linux/036.png)
 
 - Enter `$ vncpasswd` to set your VNC access (make it a secure one!).
 
-	![](images/050/037.png)
+	![](images/050Linux/037.png)
 
 - Enter `$ vncserver` to start the vncserver.
 
-	![](images/050/038.png)
+	![](images/050Linux/038.png)
 
 - Enter `$ exit` to go back to your local directory.
 
@@ -337,21 +337,21 @@ Now, we will get the Terraform code. Here is where we will see the true power of
 
      `$ ssh -i <your private key> -L 5901:localhost:5901 opc@<your IP address>`
 
-    ![](images/050/039.png)
+    ![](images/050Linux/039.png)
 
 - Open a vnc viewer session.  If you don't already have vnc viewer you can download it [here](https://www.realvnc.com/en/connect/download/viewer/).
 
     Enter `localhost::5901` into the browser and then press Enter.
 
-    ![](images/050/068.png)
+    ![](images/050Linux/068.png)
 
     Enter the **vncpasswd** password you created earlier. 
 
-	![](images/050/040.png)
+	![](images/050Linux/040.png)
 
     Now you have a user interface for your instance.
 
-	![](images/050/041.png)
+	![](images/050Linux/041.png)
 
 
 ### **STEP 10:** Download Files Used in this Workshop
@@ -378,7 +378,7 @@ Now, we will get the Terraform code. Here is where we will see the true power of
     
     Once inside, run `$ ls` to verify that you see your zip file.
 
-![](images/050/064.png)
+![](images/050Linux/064.png)
 
 **This completes the Lab!**
 
