@@ -1,5 +1,5 @@
 
-# 04 - Load Balancer
+# 04 - Load Balancer: Load Balancer & Compute
 
 
 ## Table of Contents
