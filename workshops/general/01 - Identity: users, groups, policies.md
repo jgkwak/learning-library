@@ -85,11 +85,12 @@ We'll create users, groups, and policies to understand the concept.
 
    e) Enter a **Description** (for example, "Policy for OCI Group").
 
-   f) Find the names of the group that you created and the name of the compartment you're in. Enter the following **Statement**:
+   f) Find the names of the **group** that you created and the name of the **compartment** you're in. Enter the following **Statement**:
 
    ```
-   Allow group **oci-group** to manage all-resources in compartment **Demo**
+   Allow group **group name** to manage all-resources in compartment **compartment name**
    ```
+   Replace the **group name** and **compartment name** with the names that you have.
 
    g) Click **Create**.
 
