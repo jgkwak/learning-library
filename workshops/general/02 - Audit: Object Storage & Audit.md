@@ -22,17 +22,12 @@ The purpose of this lab is to give you an overview of the Audit Service and an e
 
 ## Pre-Requisites
 
-- Oracle Cloud Infrastructure account credentials (User, Password, Tenant, and Compartment)  
+- Oracle Cloud Infrastructure account credentials (User, Password, and Tenant) 
+- To sign in to the Console, you need the following:
+  -  Tenant, User name and Password
+  -  URL for the Console: [https://console.us-phoenix-1.oraclecloud.com/](https://console.us-phoenix-1.oraclecloud.com/)
+  -  Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox and Internet Explorer 11 
 
-**Before You Begin**
-
-- We recommend using Chrome or Edge as the broswer. Also set your browser zoom to 80%
-
-**Note:** OCI UI is being updated thus some screenshots in the instructions might be different than actual UI
-
-Ensure you have below information available:
-
-- Tenant, User name, Password, and compartment name
 
 ## Practice-1: Sign in to OCI Console and Create Object Storage Bucket
 
