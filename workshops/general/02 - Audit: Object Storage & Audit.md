@@ -20,6 +20,8 @@ Each log event includes a header ID, target resource(s), time stamp of the recor
 
 The purpose of this lab is to give you an overview of the Audit Service and an example scenario to help you understand how the service works.
 
+**Note:** *Some of the UIs might look a little different than the screen shots included in the instructions, but you can still use the instructions to complete the hands-on labs.*
+
 ## Pre-Requisites
 
 - Oracle Cloud Infrastructure account credentials (User, Password, and Tenant) 
