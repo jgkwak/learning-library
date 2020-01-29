@@ -8,7 +8,9 @@
 
 [Practice 1: Signing in to the Console ](#practice-1-signing-in-to-the-console)
 
-[Practice 2: Managing Users, Groups and Policies to Control Access](#practice-2-managing-users-groups-and-policies-to-control-access)
+[Practice 2: Managing Compartments](#practice-2-managing-compartments)
+
+[Practice 2: Managing Users, Groups and Policies to Control Access](#practice-3-managing-users-groups-and-policies-to-control-access)
 
 **Note:** *Some of the UIs might look a little different than the screen shots included in the instructions, but you can still use the instructions to complete the hands-on labs.*
 
@@ -48,8 +50,26 @@ In this practice, you sign in to the Oracle Cloud Infrastructure console using y
 
    ![]( img/image004u1.png)
 
+## Practice-2: Managing Compartments
 
-## Practice-2: Managing Users, Groups and Policies to Control Access
+#### Overview
+Compartments help you organize and control access to your resources. A compartment is a collection of related resources (such as cloud networks, compute instances, or block volumes) that can be accessed only by those groups that have been given permission by an administrator in your organization.
+
+We'll create compartments to understand the concept.
+
+1. Sign in to the console, on the **Menu** click **Identity**, then select **Compartments**.
+![]( img/c1.png)
+
+2. Click **Create Compartment** and fill in the **Name** as "Demo" and add a **Description**. Then click **Create Compartment**
+![]( img/c2.png)
+
+3. Go back to the  **Menu** and click **Compute**, then select **Instance**.
+![]( img/c3.png)
+
+4. If you scroll down on the bottom left, click on the **Compartments** and you'll see the compartment that you created!
+![]( img/c4.png)
+
+## Practice-3: Managing Users, Groups and Policies to Control Access
 
 #### Overview
 
