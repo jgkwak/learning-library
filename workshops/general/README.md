@@ -2,7 +2,7 @@
  
 
 ## Overview
-Today we'll be going over some of the basic functionalities of Oracle Cloud Infrastructure (OCI). We'll be mainly focusing on the Identitiy and Access Management and Networking. 
+Today we'll be going over some of the basic functionalities of Oracle Cloud Infrastructure (OCI). We'll be mainly focusing on the **Identitiy and Access Management** and **Networking**. 
 
 **Note:** *Some of the UIs might look a little different than the screen shots included in the instructions, but you can still use the instructions to complete the hands-on labs.*
 
