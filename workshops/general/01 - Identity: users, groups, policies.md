@@ -42,9 +42,9 @@ In this practice, you sign in to the Oracle Cloud Infrastructure console using y
 
    ![]( img/image002u1.png)
 
-5. When you sign in to the Console, the dashboard is displayed.
+4. When you sign in to the Console, the dashboard is displayed.
 
-   ![]( img/image004.png)
+   ![]( img/image004u1.png)
 
 
 ## Practice-2: Managing Users, Groups and Policies to Control Access
