@@ -32,15 +32,15 @@ Oracle Cloud Infrastructure Identity and Access Management (IAM) Service lets yo
 
 In this practice, you sign in to the Oracle Cloud Infrastructure console using your credentials.
 
-1. Open a supported browser and go to the Console URL:  [https://cloud.oracle.com/](https://cloud.oracle.com/).
+1. Open a supported browser and go to the Console URL:  [https://cloud.oracle.com/](https://cloud.oracle.com/) and click **View Accounts** -> **Sign in to Cloud**.
+  ![]( img/OIC-1.01.png)
 
 2. Enter your tenant name and click **Continue**
 
-   ![]( img/OIC-1.01.png)
-
-3. Login using your Oracle Cloud Infrastructure username and password.
-
    ![]( img/OIC-1.02.png)
+
+3. Enter your credentials for either basic authentication/user or using a federated account (i.e. Oracle SSO).
+
    ![]( img/OIC-1.03.png)
 
 
