@@ -202,3 +202,5 @@ We'll create users, groups, and policies to understand the concept.
       g) Sign out.
 
 [Back to the Top](#table-of-contents)
+
+**[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
