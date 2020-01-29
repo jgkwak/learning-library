@@ -21,7 +21,7 @@ Oracle Cloud Infrastructure Identity and Access Management (IAM) Service lets yo
 - Oracle Cloud Infrastructure account credentials (User, Password, and Tenant) 
 - To sign in to the Console, you need the following:
   -  Tenant, User name and Password
-  -  URL for the Console: [https://console.us-ashburn-1.oraclecloud.com/](https://console.us-ashburn-1.oraclecloud.com/)
+  -  URL for the Console: [https://console.us-phoenix-1.oraclecloud.com/](https://console.us-phoenix-1.oraclecloud.com/)
   -  Oracle Cloud Infrastructure supports the latest versions of Google Chrome, Firefox and Internet Explorer 11 
 
 
@@ -32,7 +32,7 @@ Oracle Cloud Infrastructure Identity and Access Management (IAM) Service lets yo
 
 In this practice, you sign in to the Oracle Cloud Infrastructure console using your credentials.
 
-1. Open a supported browser and go to the Console URL:  [https://console.us-ashburn-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com).
+1. Open a supported browser and go to the Console URL:  [https://console.us-phoenix-1.oraclecloud.com/](https://console.us-phoenix-1.oraclecloud.com/).
 
 2. Enter your tenant name and click **Continue**
 
