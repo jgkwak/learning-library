@@ -35,7 +35,7 @@ In this practice, you sign in to the Oracle Cloud Infrastructure console using y
 1. Open a supported browser and go to the Console URL:  [https://cloud.oracle.com/](https://cloud.oracle.com/) and click **View Accounts** -> **Sign in to Cloud**.
   ![]( img/OIC-1.01.png)
 
-2. Enter your tenant name and click **Continue**
+2. Enter your tenant name and click **Next**
 
    ![]( img/OIC-1.02.png)
 
