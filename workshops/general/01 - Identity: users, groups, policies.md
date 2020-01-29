@@ -65,9 +65,9 @@ We'll create users, groups, and policies to understand the concept.
 
    - **Name:** Enter a unique name for your group such as "oci-group” Note that the group name cannot contain spaces.
    - **Description:** Enter a description (for example, “New group for oci users”).
-   - Click **Submit**.
+   - Click **Create**.
 
-   ![]( img/image005.png)
+   ![]( img/image005u2.png)
 
    ![]( img/image006.png)
 
