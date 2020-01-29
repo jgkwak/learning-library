@@ -69,9 +69,11 @@ We'll create users, groups, and policies to understand the concept.
 
    ![]( img/image005u2.png)
 
-   ![]( img/image006.png)
+4. You'll see the new group created. Click on the group name to see the details.
 
-4. Now, let’s **create a policy** that gives your group permissions in your assigned compartment. For example, creates a policy that gives permission to compartment **Demo** to members or group oci-group:
+![]( img/image006.png)
+
+5. Now, let’s **create a policy** that gives your group permissions in your assigned compartment. For example, creates a policy that gives permission to compartment **Demo** to members or group oci-group:
 
    a) On the **Menu** click **Identity**, and then click **Policies**.
 
@@ -93,7 +95,7 @@ We'll create users, groups, and policies to understand the concept.
 
    ![]( img/image007.png)
 
-5. Create a New User
+6. Create a New User
 
    a) On the **Menu** click **Identity**, and then click **Users**.
 
@@ -109,7 +111,7 @@ We'll create users, groups, and policies to understand the concept.
     
    d) Click **Create**.
 
-6. Set a Temporary Password for the newly created User
+7. Set a Temporary Password for the newly created User
 
    a) From the list of users, click on **the user that you created** to display its details.
 
@@ -131,7 +133,7 @@ We'll create users, groups, and policies to understand the concept.
 
    ![]( img/image013.png)
 
-7. Sign in as the new user using a different web browser window.
+8. Sign in as the new user using a different web browser window.
 
    a) Go to [https://console.us-phoenix-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com).
 
@@ -150,7 +152,7 @@ We'll create users, groups, and policies to understand the concept.
    ![]( img/image015.png)
 
 
-8. Verify user permissions
+9. Verify user permissions
 
    a) Go to the **Menu** click **Compute** and **Instances**.
 
@@ -162,7 +164,7 @@ We'll create users, groups, and policies to understand the concept.
 
    d) Sign out of the Console.
 
-9. Add User to a Group
+10. Add User to a Group
 
    a) Sign in back with the admin account using the Single Sign-on (SSO) option. Click on **Menu** --> **Identity** --> **Users**.
 
@@ -180,7 +182,7 @@ We'll create users, groups, and policies to understand the concept.
 
    g) Sign out.
 
-10. Verify user permissions when a user belongs to a specific group
+11. Verify user permissions when a user belongs to a specific group
 
       a) Sign in with the local user created
 
