@@ -169,7 +169,7 @@ We'll create users, groups, and policies to understand the concept.
 
    a) Sign in back with the admin account using the Single Sign-on (SSO) option. Click on **Menu** --> **Identity** --> **Users**.
 
-   b) From the **Users** list, click your user (for example, user01)  to go to the user details page.
+   b) From the **Users** list, click your user (for example, user01)  to go to the user details page by clicking on the username.
 
    c) Under the **Resources** menu on the left, click **Groups.**
 
