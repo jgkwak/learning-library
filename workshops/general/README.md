@@ -8,7 +8,7 @@
 
 ## Labs
 
-**Documentation**: [01 - Identity: users, groups, policies](#01 - Identity: users, groups, policies.md)
+**Documentation**: [01 - Identity: users, groups, policies](01-Identity:users,groups,policies.md)
 
 [02 - Audit: Object Storage & Audit](02 - Audit: Object Storage & Audit.md)
 
