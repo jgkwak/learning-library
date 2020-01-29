@@ -8,13 +8,13 @@
 
 ## Labs
 
-**Documentation**: [01 - Identity: users, groups, policies.md](01 - Identity: users, groups, policies.md)
+**Documentation**: [01 - Identity: users, groups, policies.md](https://github.com/jgkwak/learning-library/blob/master/workshops/general/01%20-%20Identity:%20users%2C%20groups%2C%20policies.md)
 
-[02 - Audit: Object Storage & Audit.md](02 - Audit: Object Storage & Audit.md)
+[02 - Audit: Object Storage & Audit.md](https://github.com/jgkwak/learning-library/blob/master/workshops/general/02%20-%20Audit:%20Object%20Storage%20%26%20Audit.md)
 
-[03 - Networking: Setting up VCN.md](03 - Networking: Setting up VCN.md)
+[03 - Networking: Setting up VCN.md](https://github.com/jgkwak/learning-library/blob/master/workshops/general/03%20-%20Networking:%20Setting%20up%20VCN.md)
 
-[04 - Load Balancer: Load Balancer & Compute.md](04 - Load Balancer: Load Balancer & Compute.md)
+[04 - Load Balancer: Load Balancer & Compute.md](https://github.com/jgkwak/learning-library/blob/master/workshops/general/04%20-%20Load%20Balancer:%20Load%20Balancer%20%26%20Compute.md)
 
 
 
