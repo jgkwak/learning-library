@@ -57,6 +57,8 @@ We'll create users, groups, and policies to understand the concept.
 
 1. Sign in to the console, on the **Menu** click **Identity**, then select **Groups**.
 
+![]( img/image005u1.png)
+
 2. Click **Create Group**.
 
 3. In the **Create Group** dialog box, enter the following:
