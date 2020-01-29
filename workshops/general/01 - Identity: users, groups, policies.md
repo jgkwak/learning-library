@@ -77,7 +77,7 @@ We'll create users, groups, and policies to understand the concept.
 
    a) On the **Menu** click **Identity**, and then click **Policies**.
 
-   b) On the left side, select the compartment you want to use.
+   b) On the left side, select the **Compartment** you want to use.
 
    c) Click **Create Policy**.
 
