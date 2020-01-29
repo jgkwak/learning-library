@@ -235,3 +235,6 @@ You will create two web servers that will work as backend servers for your Publi
     ![](media/image14.png)
 
     ![](media/image15.png)
+
+
+**[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
