@@ -129,3 +129,6 @@ lab we will leave them as default. Audit logs for the Storage bucket should be v
 
 ***You have utilized OCI’s Audit service to extract events specific to Storage bucket created. Audit service can be used to monitor operations performed on OCI resources and can assist in trouble 
 shooting your OCI environment***
+
+
+**[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
