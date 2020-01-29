@@ -35,9 +35,9 @@ The purpose of this lab is to give you an overview of the Audit Service and an e
 
 1. Sign in using your tenant name, user name and password.
 
-2. Once signed in select the compartment assigned to you from drop down menu on left part of the screen
+2. Click the hamburger menu on the left, click **Object Storage** then **Create Bucket**
 
-3. From the OCI Services menu,click **Object Storage** then **Create Bucket**
+3. Once signed in select the compartment assigned to you from drop down menu on left part of the screen
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 ![]( img/AUDIT001.PNG)
