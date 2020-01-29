@@ -10,7 +10,7 @@
 
 [Practice 2: Managing Compartments](#practice-2-managing-compartments)
 
-[Practice 2: Managing Users, Groups and Policies to Control Access](#practice-3-managing-users-groups-and-policies-to-control-access)
+[Practice 3: Managing Users, Groups and Policies to Control Access](#practice-3-managing-users-groups-and-policies-to-control-access)
 
 **Note:** *Some of the UIs might look a little different than the screen shots included in the instructions, but you can still use the instructions to complete the hands-on labs.*
 
