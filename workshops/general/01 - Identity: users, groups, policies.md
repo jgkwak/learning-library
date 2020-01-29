@@ -38,16 +38,9 @@ In this practice, you sign in to the Oracle Cloud Infrastructure console using y
 
    ![]( img/image001.png)
 
-3. Oracle Cloud Infrastructure is integrated with Identity Cloud Services, you will see a screen validating your Identity Provider. Click **Continue**.
+3. Login using your Oracle Cloud Infrastructure username and password.
 
-   ![]( img/image002.png)
-
-4. Enter your user name and password
-
-    - **Username:** *instructor will provide username*
-    - **Password:** *instructor will provide password*
-
-   ![]( img/image003.png)
+   ![]( img/image002u1.png)
 
 5. When you sign in to the Console, the dashboard is displayed.
 
