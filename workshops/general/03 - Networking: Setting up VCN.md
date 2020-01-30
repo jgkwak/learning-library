@@ -51,11 +51,5 @@ A security list provides a virtual firewall for an instance, with ingress and eg
 
   ![](images/050Linux/16u1.PNG)
 
-- Click **Add Ingress Rule**
-
-  ![](images/050Linux/19.PNG)
-
-- In the Pop up dialog **Enter the following** and then click the **Add Ingress Rule** button.
-
 
 **[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
