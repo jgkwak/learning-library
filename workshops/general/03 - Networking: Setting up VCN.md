@@ -39,11 +39,11 @@ All the availability domains in a region are connected to each other by a low la
 
 - Click **Next**, then **Create**.
 
-- Click **View Virtual Cloud Network**. You will see:
+- Click **DemoVCN**.
 
   ![](images/050Linux/13u2.png)
   
-- Click on your newly created VCN, it will take you to this page. On the left side, you're able to see all the resources that were automatically created. Feel free to click around to look at your resources.
+- You will see this. On the left side, you're able to see all the resources that were automatically created. Feel free to click around to look at your resources.
 ![](images/050Linux/16u2.png)
 
 ### **STEP 5**: Adding a Security List entry
