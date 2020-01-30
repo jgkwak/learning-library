@@ -124,6 +124,7 @@ You will create two web servers that will work as backend servers for your Publi
 
 2. Connect to the Web Servers using SSH 
 
+	if you have a ** MAC**
 	```
 	# ssh opc@<public_ip_address>
 	```
@@ -132,9 +133,13 @@ You will create two web servers that will work as backend servers for your Publi
 
 	```
 	# ssh -i <path_to_private_ssh_key> opc@<public_ip_address>
+
 	```
 	
-   and run the following commands on both instances:
+	if you have **windows** please go to this link to generate a ssh key
+	[https://www.ssh.com/ssh/putty/windows/puttygen](https://www.ssh.com/ssh/putty/windows/puttygen)
+	
+   then run the following commands on both instances:
 
     **Note**: For Oracle Linux VMs, the default username is **opc**.
 
