@@ -87,7 +87,7 @@ The following provide an overview of a simple Public Load Balancer:
    - **DHCP Options:** *Default DHCP Options for DemoVCN**
    - **Security List:** *LB-Security-List*
 
-    ![](media/image3.png)
+    ![](media/image3u1.png)
     ![](media/image4.png)
 
 7. Create a Web Subnet to host your webservers by clicking on **Create Subnet**. Enter the following parameters:
@@ -100,7 +100,7 @@ The following provide an overview of a simple Public Load Balancer:
    - **DHCP Options:** *Default DHCP Options for DemoVCN**
    - **Security List:** *Web-Security-List*
 
-    ![](media/image5.png)
+    ![](media/image5u1.png)
     ![](media/image6.png)
 
 ## Practice-2: Creating two Web Servers
