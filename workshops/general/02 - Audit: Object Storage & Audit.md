@@ -41,7 +41,7 @@ The purpose of this lab is to give you an overview of the Audit Service and an e
 
 **NOTE:** Ensure the correct Compartment is selected under COMPARTMENT list
 ![]( img/AUDIT001.PNG)
-![]( img/AUDIT002u1.PNG)
+![]( img/AUDIT002u1.png)
 
 4. Fill out the dialog box:
 - **Bucket Name:** Provide a name (Test-Bucket in this lab)
@@ -125,7 +125,7 @@ such as dates and Request Action Type. For this
 lab we will leave them as default. Audit logs for the Storage bucket should be visible
 
 ![]( img/AUDIT008.PNG)
-![]( img/AUDIT009u1.PNG)
+![]( img/AUDIT009u1.png)
 
 ***You have utilized OCI’s Audit service to extract events specific to Storage bucket created. Audit service can be used to monitor operations performed on OCI resources and can assist in trouble 
 shooting your OCI environment***
