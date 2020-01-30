@@ -115,6 +115,11 @@ You will create two web servers that will work as backend servers for your Publi
    - **Shape:** *VM.Standard2.1*
    - **Subnet:** *Web-subnet (Regional)* 
    - Enter your public SSH-Key
+   	- To generate a SSH-Key on a **MAC** please go to this link:
+	[https://www.siteground.com/kb/how_to_generate_an_ssh_key_pair_in_mac_os/](https://www.siteground.com/kb/how_to_generate_an_ssh_key_pair_in_mac_os/)
+	
+	- To generate a SSH-Key on a **Windows** please go to this link:
+	[https://www.ssh.com/ssh/putty/windows/puttygen](https://www.ssh.com/ssh/putty/windows/puttygen)
    - Click Create
 
     Repeat the previous steps, but this time enter the name **Web-Server-2** and select **AD 2**
@@ -135,9 +140,6 @@ You will create two web servers that will work as backend servers for your Publi
 	# ssh -i <path_to_private_ssh_key> opc@<public_ip_address>
 
 	```
-	
-	if you have **windows** please go to this link to generate a ssh key
-	[https://www.ssh.com/ssh/putty/windows/puttygen](https://www.ssh.com/ssh/putty/windows/puttygen)
 	
    then run the following commands on both instances:
 
