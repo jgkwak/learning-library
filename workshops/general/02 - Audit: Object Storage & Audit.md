@@ -67,8 +67,6 @@ This should create a file by the name"samplefile" in the Downloads folder
 
 4. Switch to OCI window and click the Bucket Name.
 
-![]( img/AUDIT006.PNG)
-
 5. Bucket detail window should be visible. Click **Upload Object**
 
 ![]( img/AUDIT007.PNG)
