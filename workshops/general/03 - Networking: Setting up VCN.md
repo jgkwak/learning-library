@@ -42,14 +42,15 @@ All the availability domains in a region are connected to each other by a low la
 - Click **View Virtual Cloud Network**. You will see:
 
   ![](images/050Linux/13u1.PNG)
+  
+- Click on your newly created VCN, it will take you to this page. On the left side, you're able to see all the resources that were automatically created. Feel free to click around to look at your resources.
+![](images/050Linux/16u2.PNG)
 
-### **STEP 5**: Add a Security List entry
+### **STEP 5**: Adding a Security List entry
 
 A security list provides a virtual firewall for an instance, with ingress and egress rules that specify the types of traffic allowed in and out. Each security list is enforced at the instance level. However, you configure your security lists at the subnet level, which means that all instances in a given subnet are subject to the same set of rules. The security lists apply to a given instance whether it's talking with another instance in the VCN or a host outside the VCN.
 
-- In the DemoVCN network click on **Security Lists**
-
-  ![](images/050Linux/16u1.PNG)
-
+[Lab 04 - Load Balancer](https://github.com/jgkwak/learning-library/blob/master/workshops/general/04%20-%20Load%20Balancer:%20Load%20Balancer%20%26%20Compute.md)
+Will go over the steps on how to add a Security List.
 
 **[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
