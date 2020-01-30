@@ -158,7 +158,7 @@ We'll create users, groups, and policies to understand the concept.
 
 8. Sign in as the new user using a different web browser window.
 
-   a) Go to [https://console.us-phoenix-1.oraclecloud.com](https://console.us-ashburn-1.oraclecloud.com).
+   a) Go to [https://cloud.oracle.com/](https://cloud.oracle.com/)
 
    b) Enter the Tenant name, if prompted.
 
@@ -222,7 +222,5 @@ We'll create users, groups, and policies to understand the concept.
       f) The message **“You don’t have access to these resources”** appears. This is expected, since your user has no permission to modify groups.
 
       g) Sign out.
-
-[Back to the Top](#table-of-contents)
 
 **[Go back to the list of labs](https://github.com/jgkwak/learning-library/blob/master/workshops/general/README.md)**
