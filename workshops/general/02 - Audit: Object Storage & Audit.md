@@ -107,7 +107,6 @@ Without requiring any additional authentication.
 ![]( imgOS/OBJECT-STORAGE010.PNG)
 
 13. Open a new browser window and paste Pre-Authenticated link. 
-![]( imgOS/OBJECT-STORAGE011.PNG)
 
 14.  An option to download the file will appear.
 
